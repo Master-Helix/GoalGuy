@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+.home{
+    background-image: url("https://i.pinimg.com/originals/93/f4/41/93f44130795b7f3a341485d531d2d8b8.jpg");
+    height:700px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 1.0;
+}
+
+.home_text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+    text-shadow: -2px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+}
+
+.navbar{
+  background-color:black;
+}
+
+.container-fluid{
+  font-size:larger;
+  font-family: 'Heebo', sans-serif;
+  margin-left: 70px;
+}
+
+
+.league_menu{
+  background-image: url("https://images.unsplash.com/photo-1510051640316-cee39563ddab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80");
+  height:auto;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.94;
+  color:whitesmoke;
+  font-family: 'Exo', sans-serif;
+}
+
+.title_league{
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.epl_menu{
+  
+  background-image: url("https://thebridge.in/wp-content/uploads/2018/01/field.jpg");
+  height:auto;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+  opacity: 1.0;
+  color:whitesmoke;
+  font-family: 'Exo', sans-serif;
+}
+
+.title_epl{
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+
+.laliga_menu{
+  background-image: url("https://www.teahub.io/photos/full/19-197854_football-stadium-wallpaper.jpg");
+  height:auto;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+  opacity: 1.0;
+  color:whitesmoke;
+  font-family: 'Exo', sans-serif;
+}
+
+.title_laliga{
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.serie_menu{
+  background-image: url("https://redditchstandard.co.uk/wp-content/uploads/2020/10/football-2518982_960_720-1.jpg");
+  height:auto;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+  opacity: 1.0;
+  color:whitesmoke;
+  font-family: 'Exo', sans-serif;
+}
+
+.title_serie{
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+
+.bundesliga_menu{
+  background-image: url("https://toppng.com/uploads/preview/football-ball-ball-football-lawn-grass-11569941421u7trfwfwux.jpg");
+  height:auto;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+  opacity: 1.0;
+  color:whitesmoke;
+  font-family: 'Exo', sans-serif;
+}
+
+.title_bund{
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.btn{
+  font-weight: bold;
+  font-family:Cochin;
+  width: 22%;
+  height: 50px;
+}
+
+
+.card{
+  width: 50%;
+  height: 95%;
+  border-radius: 3px;
+  display:inline-block;
+  margin-left: 180px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform:scale(1.04);
+}
+
+.card-body{
+  color:black;
+}
+
+.para_home{
+  font-size:xx-large;
+  font-family: 'Inconsolata', monospace;
+}
+
+.card {
+  border: 2px solid #fff;
+  width:50%;
+  height:auto;
+  overflow:visible;
+}
+.card img {
+  width: 100%;
+  height: 90%;
+  transition: all 2s ease-in-out;
+}
+
+.card:hover img {
+  transform:scale(1.2,1.2);
+  cursor: pointer;
+}
+
+
+.about_text{
+  padding-left: 20px;
+  padding-top: 50px;
+  font-family: 'Caveat', cursive;
+  font-size: xx-larger;
+  font-weight: bolder;
+  color: white;
+}
+
+.name_tag{
+  color:yellow;
+  text-decoration: dotted;
+  font-weight: bolder;
+}
+
+.btn3{
+  border-radius: 12px;
+  color:yellow;
+  padding: 4px;
+  background-color:black;
+}
+
+.btn2{
+  border-radius: 8px;
+  color:black;
+  background-color: orange;
+}
+
+#video{
+  position:fixed;
+  z-index:-1;
+  width:100%;
+  opacity: 2;
+}
+
+.bajao{
+  border-radius:7px;
+  padding-bottom: 7px;
+}
+
+.card1{
+  height:auto;
+  padding-top: 10px;
+  border-radius: 5px black;
+}
+
+.btn5{
+  align-items: center;
+}
